@@ -1,0 +1,5 @@
+title: "Poke Fun"
+description: "A playful Jekyll starter for Pokémon fans."
+baseurl: ""
+url: ""
+markdown: kramdown
