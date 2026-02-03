@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        background-color: #f7f8fb;
+        color: #1f2430;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      header {
+        background: linear-gradient(120deg, #ffcb05 0%, #3c5aa6 100%);
+        color: #ffffff;
+        padding: 3rem 1.5rem;
+        text-align: center;
+      }
+
+      main {
+        max-width: 860px;
+        margin: -2.5rem auto 3rem;
+        background: #ffffff;
+        padding: 2.5rem;
+        box-shadow: 0 18px 45px rgba(31, 36, 48, 0.12);
+        border-radius: 24px;
+      }
+
+      .cta {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.85rem 1.6rem;
+        background: #ffcb05;
+        color: #1f2430;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 999px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .cta:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(31, 36, 48, 0.18);
+      }
+
+      footer {
+        text-align: center;
+        padding: 1.5rem;
+        color: #65708a;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
